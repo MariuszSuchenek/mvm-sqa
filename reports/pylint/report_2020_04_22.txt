@@ -1,0 +1,1708 @@
+PyLint: The stdout of the command line is:
+ ************* Module communication
+C:  1, 0: Missing module docstring (missing-module-docstring)
+
+------------------------------------------------------------------
+
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module communication.esp32alarm
+C: 30,47: No space allowed after bracket
+        self.alarms = list(filter(lambda x: x, [ self.number & (1<<test) for test in range(32)]))
+
+                                               ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C: 37, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+R: 48, 8: Unnecessary "else" after "return" (no-else-return)
+C: 65,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 67,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 70,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 71,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 72,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W: 30, 8: Attribute 'alarms' defined outside __init__ (attribute-defined-outside-init)
+C: 80, 0: Missing class docstring (missing-class-docstring)
+C:118, 0: Missing class docstring (missing-class-docstring)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.84/10 (previous run: 6.84/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\mvm_gui.py
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\numpad\numpad.py
+PyLint: The stdout of the command line is:
+ ************* Module maindisplay
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I:  5,18: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 3.33/10 (previous run: 3.33/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\presets\presets.py
+PyLint: The stdout of the command line is:
+ ************* Module alarmsbar
+C: 14, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I:  5,16: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 1.67/10 (previous run: 1.67/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\settings\gui.py
+PyLint: The stdout of the command line is:
+ ************* Module communication.threading_utils
+C:  4, 0: Multiple imports on one line (traceback, sys) (multiple-imports)
+W:  5, 0: Wildcard import PyQt5.QtCore (wildcard-import)
+E:  8,20: Undefined variable 'QObject' (undefined-variable)
+E: 27,15: Undefined variable 'pyqtSignal' (undefined-variable)
+E: 28,12: Undefined variable 'pyqtSignal' (undefined-variable)
+E: 29,13: Undefined variable 'pyqtSignal' (undefined-variable)
+E: 30,15: Undefined variable 'pyqtSignal' (undefined-variable)
+R:  8, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 52, 8: Attribute name "fn" doesn't conform to snake_case naming style (invalid-name)
+E: 34,13: Undefined variable 'QRunnable' (undefined-variable)
+C: 48, 4: Argument name "fn" doesn't conform to snake_case naming style (invalid-name)
+E: 61, 5: Undefined variable 'pyqtSlot' (undefined-variable)
+W: 70, 8: No exception type(s) specified (bare-except)
+R: 34, 0: Too few public methods (1/2) (too-few-public-methods)
+
+--------------------------------------------------------------------
+
+Your code has been rated at -6.80/10 (previous run: -6.80/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\settings\mvmtoggle.py
+PyLint: The stdout of the command line is:
+ ************* Module menu
+C: 16, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I:  5,11: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 1.67/10 (previous run: 1.67/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\settings\settings.py
+PyLint: The stdout of the command line is:
+ ************* Module controller_status
+C:155, 0: Trailing newlines (trailing-newlines)
+W:113, 2: TODO: find a good exit point (fixme)
+E:  5, 0: No name 'QTimer' in module 'PyQt5.QtCore' (no-name-in-module)
+W: 69,15: Catching too general exception Exception (broad-except)
+C: 99, 8: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:117, 8: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+C:  6, 0: standard import "import sys" should be placed before "from PyQt5.QtCore import QTimer" (wrong-import-order)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.69/10 (previous run: 7.69/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\settings\settingsbar.py
+PyLint: The stdout of the command line is:
+ ************* Module messagebox
+W: 89, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:178, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+E:  2, 0: No name 'QMessageBox' in module 'PyQt5.QtWidgets' (no-name-in-module)
+W: 22, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+R: 32, 4: Too many arguments (8/5) (too-many-arguments)
+R: 92, 8: Unnecessary "else" after "return" (no-else-return)
+R:100, 4: Too many arguments (7/5) (too-many-arguments)
+R:125, 4: Too many arguments (7/5) (too-many-arguments)
+R:152, 4: Too many arguments (7/5) (too-many-arguments)
+
+------------------------------------------------------------------
+
+Your code has been rated at 5.17/10 (previous run: 5.17/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\settings\settingsfile.py
+PyLint: The stdout of the command line is:
+ ************* Module alarm_handler
+C: 64,30: No space allowed after bracket
+                              { msg.Retry: lambda: None,
+
+                              ^ (bad-whitespace)
+C: 65,56: No space allowed before bracket
+                                msg.Abort: lambda: None })
+
+                                                        ^ (bad-whitespace)
+C: 78, 0: Wrong continued indentation (add 10 spaces).
+                             " - ".join(errors),
+
+                             ^         | (bad-continuation)
+C: 79, 0: Wrong continued indentation (add 10 spaces).
+                             "\n".join(errors_full),
+
+                             ^         | (bad-continuation)
+C: 80, 0: Wrong continued indentation (add 10 spaces).
+                             "Alarm received.",
+
+                             ^         | (bad-continuation)
+C: 81, 0: Wrong continued indentation (add 10 spaces).
+                             { self._msg_err.Ignore: lambda:
+
+                             ^         | (bad-continuation)
+C: 81,29: No space allowed after bracket
+                             { self._msg_err.Ignore: lambda:
+
+                             ^ (bad-whitespace)
+C: 82, 0: Wrong continued indentation (add 20 spaces).
+                                 self.ok_worker('alarm', esp32alarm) },
+
+                                 ^                   | (bad-continuation)
+C: 82,69: No space allowed before bracket
+                                 self.ok_worker('alarm', esp32alarm) },
+
+                                                                     ^ (bad-whitespace)
+C: 83, 0: Wrong continued indentation (add 10 spaces).
+                             do_not_block=True)
+
+                             ^         | (bad-continuation)
+C:103, 0: Wrong continued indentation (add 9 spaces).
+                             " - ".join(errors),
+
+                             ^        | (bad-continuation)
+C:104, 0: Wrong continued indentation (add 9 spaces).
+                             "\n".join(errors_full),
+
+                             ^        | (bad-continuation)
+C:105, 0: Wrong continued indentation (add 9 spaces).
+                             "Warning received.",
+
+                             ^        | (bad-continuation)
+C:106, 0: Wrong continued indentation (add 9 spaces).
+                             { self._msg_war.Ok: lambda:
+
+                             ^        | (bad-continuation)
+C:106,29: No space allowed after bracket
+                             { self._msg_war.Ok: lambda:
+
+                             ^ (bad-whitespace)
+C:107, 0: Wrong continued indentation (add 16 spaces).
+                                 self.ok_worker('warning', esp32warning) },
+
+                                 ^               | (bad-continuation)
+C:107,73: No space allowed before bracket
+                                 self.ok_worker('warning', esp32warning) },
+
+                                                                         ^ (bad-whitespace)
+C:108, 0: Wrong continued indentation (add 9 spaces).
+                             do_not_block=True)
+
+                             ^        | (bad-continuation)
+C:151,30: No space allowed after bracket
+                              { msg.Retry: lambda: self.ok_worker(mode),
+
+                              ^ (bad-whitespace)
+C:152,56: No space allowed before bracket
+                                msg.Abort: lambda: None })
+
+                                                        ^ (bad-whitespace)
+C:166, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+I: 33,28: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 54,15: Catching too general exception Exception (broad-except)
+C: 60,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+W:145,15: Catching too general exception Exception (broad-except)
+C:147,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+E:151,51: No value for argument 'raised_ones' in method call (no-value-for-parameter)
+W:161,25: Unused argument 'code' (unused-argument)
+W:  2, 0: Unused QtGui imported from PyQt5 (unused-import)
+W:  2, 0: Unused QtWidgets imported from PyQt5 (unused-import)
+W:  5, 0: Unused ESP32Alarm imported from communication.esp32serial (unused-import)
+W:  5, 0: Unused ESP32Warning imported from communication.esp32serial (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 4.63/10 (previous run: 4.63/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\special\special.py
+PyLint: The stdout of the command line is:
+ ************* Module guialarms
+C:120, 0: Unnecessary parens after 'assert' keyword (superfluous-parens)
+C:203, 0: Trailing newlines (trailing-newlines)
+C:  7, 0: Missing class docstring (missing-class-docstring)
+C: 23,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 23,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 45,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 45,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W: 45,12: Unused variable 'n' (unused-variable)
+C: 56,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:141,24: More than one statement on a single line (multiple-statements)
+R:152, 8: Unnecessary "else" after "return" (no-else-return)
+C:152,24: More than one statement on a single line (multiple-statements)
+R:161, 8: Unnecessary "else" after "return" (no-else-return)
+C:161,24: More than one statement on a single line (multiple-statements)
+R:170, 8: Unnecessary "else" after "return" (no-else-return)
+C:170,24: More than one statement on a single line (multiple-statements)
+R:179, 8: Unnecessary "else" after "return" (no-else-return)
+C:179,24: More than one statement on a single line (multiple-statements)
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.11/10 (previous run: 5.49/10, +2.61)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\start_stop_worker.py
+PyLint: The stdout of the command line is:
+ ************* Module data_handler
+C: 20,59: Trailing whitespace (trailing-whitespace)
+C:129, 0: Trailing newlines (trailing-newlines)
+W: 87, 2: TODO: find a good exit point (fixme)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+E:  4, 0: No name 'QTimer' in module 'PyQt5.QtCore' (no-name-in-module)
+W: 67,15: Catching too general exception Exception (broad-except)
+C: 54,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 54,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 62,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 62,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 8: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+W:  3, 0: Unused import datetime (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.44/10 (previous run: 6.44/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\toolbar\toolbar.py
+PyLint: The stdout of the command line is:
+ ************* Module monitor
+C: 25, 0: Wrong hanging indentation (remove 4 spaces).
+                "name": "NoName",
+            |   ^ (bad-continuation)
+C: 26, 0: Wrong hanging indentation (remove 4 spaces).
+                "init": 50,
+            |   ^ (bad-continuation)
+C: 27, 0: Wrong hanging indentation (remove 4 spaces).
+                "units": None,
+            |   ^ (bad-continuation)
+C: 28, 0: Wrong hanging indentation (remove 4 spaces).
+                "step": 1,
+            |   ^ (bad-continuation)
+C: 29, 0: Wrong hanging indentation (remove 4 spaces).
+                "map": {},
+            |   ^ (bad-continuation)
+C: 30, 0: Wrong hanging indentation (remove 4 spaces).
+                "dec_precision": 0,
+            |   ^ (bad-continuation)
+C: 31, 0: Wrong hanging indentation (remove 4 spaces).
+                "color": "white",
+            |   ^ (bad-continuation)
+C: 32, 0: Wrong hanging indentation (remove 4 spaces).
+                "alarmcolor": "red",
+            |   ^ (bad-continuation)
+C: 33, 0: Wrong hanging indentation (remove 4 spaces).
+                "observable": "o2",
+            |   ^ (bad-continuation)
+C: 34, 0: Wrong hanging indentation (remove 4 spaces).
+                "disp_type": None}
+            |   ^ (bad-continuation)
+C: 80, 0: Wrong hanging indentation (remove 4 spaces).
+                "QProgressBar {"
+            |   ^ (bad-continuation)
+W:130, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:161, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:164, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:170, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:181, 0: Trailing newlines (trailing-newlines)
+W: 74, 2: TODO: determine is stats are useful/necessary (fixme)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  4, 0: Missing class docstring (missing-class-docstring)
+R:  4, 0: Too many instance attributes (24/7) (too-many-instance-attributes)
+I:  4,14: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 17,41: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 18,42: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 19,40: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 20,40: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 21,42: Module 'PyQt5.QtWidgets' has no 'QGridLayout' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 22,36: Module 'PyQt5.QtWidgets' has no 'QFrame' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 54,39: Lambda may not be necessary (unnecessary-lambda)
+I: 57,43: Module 'PyQt5.QtWidgets' has no 'QStackedWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 58,43: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 61,43: Module 'PyQt5.QtWidgets' has no 'QProgressBar' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 76, 4: Missing function or method docstring (missing-function-docstring)
+I: 78,43: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 88,35: More than one statement on a single line (multiple-statements)
+W: 77, 9: Unused variable 'text' (unused-variable)
+E: 93, 4: An attribute defined in monitor line 38 hides this method (method-hidden)
+C:123, 4: Missing function or method docstring (missing-function-docstring)
+C:133, 4: Missing function or method docstring (missing-function-docstring)
+W:133,28: Unused argument 'event' (unused-argument)
+C:138, 4: Missing function or method docstring (missing-function-docstring)
+C:139, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+I:152,20: Module 'PyQt5.QtGui' has no 'QColor' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:157,31: Module 'PyQt5.QtGui' has no 'QColor' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:160, 4: Missing function or method docstring (missing-function-docstring)
+C:163, 4: Missing function or method docstring (missing-function-docstring)
+C:166, 4: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.37/10 (previous run: 6.37/10, +0.00)
+PyLint: Executing command line: D:\programmi\python\Scripts\pylint.exe --output-format=text --msg-template='{C}:{line:3d},{column:2d}: {msg} ({symbol})' \mvmgui\gui\toolsettings\toolsettings.py
+PyLint: The stdout of the command line is:
+ ************* Module alarms
+C: 62,29: Exactly one space required before assignment
+        self.layout          = self.findChild(QtWidgets.QGridLayout, "monitors_layout")
+
+                             ^ (bad-whitespace)
+C: 63,62: Exactly one space required after comma
+        self.label_alarmname = self.findChild(QtWidgets.QLabel,      "label_alarmname")
+
+                                                              ^ (bad-whitespace)
+C: 65,66: Exactly one space required after comma
+        self.slider_alarmmin = self.findChild(QtWidgets.QScrollBar,  "slider_alarmmin")
+
+                                                                  ^ (bad-whitespace)
+C: 66,29: Exactly one space required before assignment
+        self.alarmmin_min    = self.findChild(QtWidgets.QLabel,      "alarmmin_min")
+
+                             ^ (bad-whitespace)
+C: 66,62: Exactly one space required after comma
+        self.alarmmin_min    = self.findChild(QtWidgets.QLabel,      "alarmmin_min")
+
+                                                              ^ (bad-whitespace)
+C: 67,29: Exactly one space required before assignment
+        self.alarmmin_value  = self.findChild(QtWidgets.QLabel,      "alarmmin_value")
+
+                             ^ (bad-whitespace)
+C: 67,62: Exactly one space required after comma
+        self.alarmmin_value  = self.findChild(QtWidgets.QLabel,      "alarmmin_value")
+
+                                                              ^ (bad-whitespace)
+C: 68,29: Exactly one space required before assignment
+        self.alarmmin_max    = self.findChild(QtWidgets.QLabel,      "alarmmin_max")
+
+                             ^ (bad-whitespace)
+C: 68,62: Exactly one space required after comma
+        self.alarmmin_max    = self.findChild(QtWidgets.QLabel,      "alarmmin_max")
+
+                                                              ^ (bad-whitespace)
+C: 70,66: Exactly one space required after comma
+        self.slider_alarmmax = self.findChild(QtWidgets.QScrollBar,  "slider_alarmmax")
+
+                                                                  ^ (bad-whitespace)
+C: 71,29: Exactly one space required before assignment
+        self.alarmmax_min    = self.findChild(QtWidgets.QLabel,      "alarmmax_min")
+
+                             ^ (bad-whitespace)
+C: 71,62: Exactly one space required after comma
+        self.alarmmax_min    = self.findChild(QtWidgets.QLabel,      "alarmmax_min")
+
+                                                              ^ (bad-whitespace)
+C: 72,29: Exactly one space required before assignment
+        self.alarmmax_value  = self.findChild(QtWidgets.QLabel,      "alarmmax_value")
+
+                             ^ (bad-whitespace)
+C: 72,62: Exactly one space required after comma
+        self.alarmmax_value  = self.findChild(QtWidgets.QLabel,      "alarmmax_value")
+
+                                                              ^ (bad-whitespace)
+C: 73,29: Exactly one space required before assignment
+        self.alarmmax_max    = self.findChild(QtWidgets.QLabel,      "alarmmax_max")
+
+                             ^ (bad-whitespace)
+C: 73,62: Exactly one space required after comma
+        self.alarmmax_max    = self.findChild(QtWidgets.QLabel,      "alarmmax_max")
+
+                                                              ^ (bad-whitespace)
+C:127, 0: Line too long (117/100) (line-too-long)
+C:179, 0: Line too long (109/100) (line-too-long)
+C:183, 0: Wrong continued indentation (add 34 spaces).
+                self.do_alarmmin_moved(value, monitor))
+
+                ^                                 | (bad-continuation)
+C:198, 0: Wrong continued indentation (add 34 spaces).
+                self.do_alarmmax_moved(value, monitor))
+
+                ^                                 | (bad-continuation)
+C:219, 0: Line too long (118/100) (line-too-long)
+C:221, 0: Line too long (118/100) (line-too-long)
+C:308, 0: Line too long (115/100) (line-too-long)
+C:339, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+I:  6,21: Module 'PyQt5.QtWidgets' has no 'QScrollBar' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 47, 4: Redefining built-in 'filter' (redefined-builtin)
+C: 38, 4: Missing class docstring (missing-class-docstring)
+I: 38,17: Module 'PyQt5.QtCore' has no 'QObject' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 39,18: Module 'PyQt5.QtCore' has no 'pyqtSignal' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 40, 8: Method name "eventFilter" doesn't conform to snake_case naming style (invalid-name)
+C: 40, 8: Missing function or method docstring (missing-function-docstring)
+I: 42,35: Module 'PyQt5.QtCore' has no 'QEvent' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R: 38, 4: Too few public methods (1/2) (too-few-public-methods)
+C: 51, 0: Missing class docstring (missing-class-docstring)
+R: 51, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+I: 51,13: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 62,46: Module 'PyQt5.QtWidgets' has no 'QGridLayout' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 63,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 65,46: Module 'PyQt5.QtWidgets' has no 'QScrollBar' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 66,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 67,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 68,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 70,46: Module 'PyQt5.QtWidgets' has no 'QScrollBar' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 71,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 72,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 73,46: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 92, 4: Missing function or method docstring (missing-function-docstring)
+C:101,29: More than one statement on a single line (multiple-statements)
+R:116, 4: Method could be a function (no-self-use)
+W:292,18: Unused variable 'monitor' (unused-variable)
+W: 83, 8: Attribute 'mainparent' defined outside __init__ (attribute-defined-outside-init)
+W: 84, 8: Attribute 'monitors' defined outside __init__ (attribute-defined-outside-init)
+W: 85, 8: Attribute 'monitors_slots' defined outside __init__ (attribute-defined-outside-init)
+W: 86, 8: Attribute 'displayed_monitors' defined outside __init__ (attribute-defined-outside-init)
+W:257, 8: Attribute 'displayed_monitors' defined outside __init__ (attribute-defined-outside-init)
+W:105,16: Attribute 'selected' defined outside __init__ (attribute-defined-outside-init)
+W:327,12: Attribute 'selected' defined outside __init__ (attribute-defined-outside-init)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.37/10 (previous run: 7.31/10, +0.06)
+PyLint: The stdout of the command line is:
+ ************* Module communication.fake_esp32serial
+C:139, 0: Wrong hanging indentation (remove 4 spaces).
+                "low_input_pressure_alarm": 0,
+
+            |   ^ (bad-continuation)
+C:140, 0: Wrong hanging indentation (remove 4 spaces).
+                "high_input_pressure_alarm": 1,
+
+            |   ^ (bad-continuation)
+C:141, 0: Wrong hanging indentation (remove 4 spaces).
+                "low_inner_pressure_alarm": 2,
+
+            |   ^ (bad-continuation)
+C:142, 0: Wrong hanging indentation (remove 4 spaces).
+                "high_inner_pressure_alarm": 3,
+
+            |   ^ (bad-continuation)
+C:143, 0: Wrong hanging indentation (remove 4 spaces).
+                "battery_low_alarm": 4,
+
+            |   ^ (bad-continuation)
+C:144, 0: Wrong hanging indentation (remove 4 spaces).
+                "gas_leakage_alarm": 5,
+
+            |   ^ (bad-continuation)
+C:145, 0: Wrong hanging indentation (remove 4 spaces).
+                "gas_occlusion_alarm": 6,
+
+            |   ^ (bad-continuation)
+C:146, 0: Wrong hanging indentation (remove 4 spaces).
+                "partial_gas_occlusion_alarm": 7,
+
+            |   ^ (bad-continuation)
+C:147, 0: Wrong hanging indentation (remove 4 spaces).
+                "system_failure_alarm": 31}
+
+            |   ^ (bad-continuation)
+C:151, 0: Wrong hanging indentation (remove 4 spaces).
+                "o2_warning": 0,
+
+            |   ^ (bad-continuation)
+C:152, 0: Wrong hanging indentation (remove 4 spaces).
+                "power_warning": 1}
+
+            |   ^ (bad-continuation)
+C:159, 0: Wrong hanging indentation (remove 4 spaces).
+                QtWidgets.QPushButton,
+
+            |   ^ (bad-continuation)
+C:160, 0: Wrong hanging indentation (remove 4 spaces).
+                "raise_alarm_btn")
+
+            |   ^ (bad-continuation)
+C:169, 0: Wrong hanging indentation (remove 4 spaces).
+                QtWidgets.QPushButton,
+
+            |   ^ (bad-continuation)
+C:170, 0: Wrong hanging indentation (remove 4 spaces).
+                "raise_warning_btn")
+
+            |   ^ (bad-continuation)
+C:185,22: Exactly one space required after comma
+        self.set('run',    int(self.status_run.isChecked()))
+
+                      ^ (bad-whitespace)
+C:186,23: Exactly one space required after comma
+        self.set('mode',   int(self.status_mode.isChecked()))
+
+                       ^ (bad-whitespace)
+W:191, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:192, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:331,17: No space allowed after bracket
+        bitmap = { 1 << x: x for x in range(32)}
+
+                 ^ (bad-whitespace)
+E:  9, 0: No name 'QTextCursor' in module 'PyQt5.QtGui' (no-name-in-module)
+C: 13, 0: Missing class docstring (missing-class-docstring)
+I: 13,20: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 14,49: Redefining name 'random' from outer scope (line 6) (redefined-outer-name)
+I: 20,23: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 22,39: Module 'PyQt5.QtWidgets' has no 'QDoubleSpinBox' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 25,40: Module 'PyQt5.QtWidgets' has no 'QCheckBox' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 34, 4: Missing function or method docstring (missing-function-docstring)
+R: 35, 8: Unnecessary "else" after "return" (no-else-return)
+R: 13, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 40, 0: Missing class docstring (missing-class-docstring)
+R: 40, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+I: 40,22: Module 'PyQt5.QtWidgets' has no 'QMainWindow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 64,40: Module 'PyQt5.QtWidgets' has no 'QPlainTextEdit' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 72,39: Module 'PyQt5.QtWidgets' has no 'QGridLayout' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R: 68, 4: Too many branches (16/12) (too-many-branches)
+I:132,52: Module 'PyQt5.QtWidgets' has no 'QCheckBox' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:159,16: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:169,16: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:189, 4: Missing function or method docstring (missing-function-docstring)
+C:191, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:333, 8: Unused variable 'pos' (unused-variable)
+W:209,12: Attribute '_lung_recruit_stop_time' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.81/10 (previous run: 7.81/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module gui
+C: 10, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+I:  6,13: Module 'PyQt5.QtWidgets' has no 'QMainWindow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 11, 4: Keyword argument before variable positional arguments list in the definition of __init__ function (keyword-arg-before-vararg)
+C: 15, 4: Missing function or method docstring (missing-function-docstring)
+C: 18, 4: Missing function or method docstring (missing-function-docstring)
+C: 21, 4: Missing function or method docstring (missing-function-docstring)
+R: 21, 4: Method could be a function (no-self-use)
+W:  1, 0: Unused import sys (unused-import)
+W:  2, 0: Unused QtCore imported from PyQt5 (unused-import)
+W:  2, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 2.31/10 (previous run: 2.31/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module settingsbar
+C: 14, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I:  5,18: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 1.67/10 (previous run: 1.67/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module mvmtoggle
+C:  9,30: No space allowed around keyword argument assignment
+    def __init__(self, parent = None):
+                              ^ (bad-whitespace)
+C: 29,39: Exactly one space required after comma
+        painter.setBrush(QtGui.QColor(0,0,0))
+                                       ^ (bad-whitespace)
+C: 29,41: Exactly one space required after comma
+        painter.setBrush(QtGui.QColor(0,0,0))
+                                         ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+E:  2, 0: No name 'Qt' in module 'PyQt5.QtCore' (no-name-in-module)
+E:  2, 0: No name 'QRect' in module 'PyQt5.QtCore' (no-name-in-module)
+I:  4,16: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 15, 4: Method name "paintEvent" doesn't conform to snake_case naming style (invalid-name)
+C: 15, 4: Missing function or method docstring (missing-function-docstring)
+I: 26,18: Module 'PyQt5.QtGui' has no 'QPainter' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 27,30: Module 'PyQt5.QtGui' has no 'QPainter' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 29,25: Module 'PyQt5.QtGui' has no 'QColor' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 31,14: Module 'PyQt5.QtGui' has no 'QPen' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 36,25: Module 'PyQt5.QtGui' has no 'QBrush' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 15,25: Unused argument 'event' (unused-argument)
+C: 43, 4: Method name "setValue" doesn't conform to snake_case naming style (invalid-name)
+W:  1, 0: Unused QtCore imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 4.41/10 (previous run: 4.41/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module communication.esp32serial
+C: 32, 0: Wrong hanging indentation (remove 4 spaces).
+                "ERROR in %s: line: '%s'; output: %s" % (verb, line, output))
+
+            |   ^ (bad-continuation)
+C:192, 0: Line too long (120/100) (line-too-long)
+C:260,17: No space allowed after bracket
+        bitmap = { 1 << x: x for x in range(32)}
+
+                 ^ (bad-whitespace)
+R: 84, 4: Method could be a function (no-self-use)
+W:129,23: Catching too general exception Exception (broad-except)
+W:165,23: Catching too general exception Exception (broad-except)
+W:195,23: Catching too general exception Exception (broad-except)
+
+------------------------------------------------------------------
+
+Your code has been rated at 9.26/10 (previous run: 9.26/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module presets
+C: 26,65: Trailing whitespace (trailing-whitespace)
+C: 35, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I:  5,14: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 19,44: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 22,53: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 25,15: Do not use `len(SEQUENCE)` without comparison to determine if a sequence is empty (len-as-condition)
+R:  5, 0: Too few public methods (0/2) (too-few-public-methods)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.11/10 (previous run: 6.11/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module numpad
+C: 50, 0: Trailing whitespace (trailing-whitespace)
+C: 64, 0: Trailing whitespace (trailing-whitespace)
+C: 65, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+W:  3, 0: Reimport 'QtWidgets' (imported line 2) (reimported)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+I: 13,53: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 19,47: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W: 21,50: Cell variable i defined in loop (cell-var-from-loop)
+W:  2, 0: Unused uic imported from PyQt5 (unused-import)
+W:  3, 0: Unused QtCore imported from PyQt5 (unused-import)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.30/10 (previous run: 6.30/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module special
+C:121,30: No space allowed after bracket
+                              { msg.Ok: lambda: self.stop_timer(mode) })
+
+                              ^ (bad-whitespace)
+C:121,70: No space allowed before bracket
+                              { msg.Ok: lambda: self.stop_timer(mode) })
+
+                                                                      ^ (bad-whitespace)
+C:132, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  6, 0: Missing class docstring (missing-class-docstring)
+I:  6,17: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 33, 4: Missing function or method docstring (missing-function-docstring)
+C: 44, 4: Missing function or method docstring (missing-function-docstring)
+C: 52,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+I: 70,39: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 87,28: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:115,15: Catching too general exception Exception (broad-except)
+C:117,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+E: 48,12: Access to member '_lung_recruit_timer' before its definition line 70 (access-member-before-definition)
+W: 29, 8: Attribute '_data_h' defined outside __init__ (attribute-defined-outside-init)
+W: 30, 8: Attribute '_config' defined outside __init__ (attribute-defined-outside-init)
+W: 31, 8: Attribute '_esp32' defined outside __init__ (attribute-defined-outside-init)
+W: 70,12: Attribute '_lung_recruit_timer' defined outside __init__ (attribute-defined-outside-init)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.33/10 (previous run: 7.08/10, +0.25)
+PyLint: The stdout of the command line is:
+ ************* Module start_stop_worker
+C: 24, 0: Wrong continued indentation (add 5 spaces).
+            button_autoassist, toolbar, settings):
+
+            ^    | (bad-continuation)
+C: 36,18: Exactly one space required before assignment
+        self.run  = self.DONOT_RUN
+
+                  ^ (bad-whitespace)
+C:107, 0: Wrong hanging indentation (remove 5 spaces).
+                 self.update_startstop_text(),
+
+            |    ^ (bad-continuation)
+C:108, 0: Wrong hanging indentation (remove 5 spaces).
+                 self.button_startstop.setEnabled(True),
+
+            |    ^ (bad-continuation)
+C:109, 0: Wrong hanging indentation (remove 5 spaces).
+                 self.button_startstop.setStyleSheet("color: red"),
+
+            |    ^ (bad-continuation)
+C:110, 0: Wrong hanging indentation (remove 5 spaces).
+                 self.toolbar.set_running(self.mode_text)))
+
+            |    ^ (bad-continuation)
+C:138, 0: Wrong continued indentation (remove 1 space).
+                           currentMode,
+
+                          |^ (bad-continuation)
+C:139, 0: Wrong continued indentation (remove 1 space).
+                           None, "IMPORTANT", { msg.Yes: lambda: True,
+
+                          |^ (bad-continuation)
+C:139,46: No space allowed after bracket
+                           None, "IMPORTANT", { msg.Yes: lambda: True,
+
+                                              ^ (bad-whitespace)
+C:140, 0: Wrong continued indentation (add 21 spaces).
+                           msg.No: lambda: False })()
+
+                           ^                    | (bad-continuation)
+C:140,49: No space allowed before bracket
+                           msg.No: lambda: False })()
+
+                                                 ^ (bad-whitespace)
+C:153, 0: Wrong continued indentation (remove 1 space).
+                           currentMode,
+
+                          |^ (bad-continuation)
+C:154, 0: Wrong continued indentation (remove 1 space).
+                           None, "IMPORTANT", { msg.Yes: lambda: True,
+
+                          |^ (bad-continuation)
+C:154,46: No space allowed after bracket
+                           None, "IMPORTANT", { msg.Yes: lambda: True,
+
+                                              ^ (bad-whitespace)
+C:155, 0: Wrong continued indentation (add 21 spaces).
+                           msg.No: lambda: False })()
+
+                           ^                    | (bad-continuation)
+C:155,49: No space allowed before bracket
+                           msg.No: lambda: False })()
+
+                                                 ^ (bad-whitespace)
+C:224, 0: Line too long (102/100) (line-too-long)
+C:225, 0: Line too long (102/100) (line-too-long)
+C:240, 0: Trailing newlines (trailing-newlines)
+W: 44, 2: TODO: find a good exit point (fixme)
+R:  9, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R: 23, 4: Too many arguments (8/5) (too-many-arguments)
+R: 23, 4: Useless return at end of function or method (useless-return)
+E: 48,67: Undefined variable 'sys' (undefined-variable)
+R: 39, 4: Method could be a function (no-self-use)
+I:106, 8: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:134, 8: Variable name "currentMode" doesn't conform to snake_case naming style (invalid-name)
+C:136, 8: Variable name "ok" doesn't conform to snake_case naming style (invalid-name)
+C:149, 8: Variable name "currentMode" doesn't conform to snake_case naming style (invalid-name)
+C:151, 8: Variable name "ok" doesn't conform to snake_case naming style (invalid-name)
+W:  5, 0: Unused QtGui imported from PyQt5 (unused-import)
+W:  5, 0: Unused QtWidgets imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.82/10 (previous run: 7.13/10, -0.31)
+PyLint: The stdout of the command line is:
+ ************* Module settingsfile
+C:  6, 7: Exactly one space required around assignment
+__all__=('SettingsFile',)
+
+       ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C: 56,40: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 80, 8: No exception type(s) specified (bare-except)
+R: 93, 8: Unnecessary "else" after "return" (no-else-return)
+
+------------------------------------------------------------------
+
+Your code has been rated at 8.61/10 (previous run: 8.61/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module toolbar
+C: 31, 0: Wrong hanging indentation (remove 4 spaces).
+                "QLabel { background-color : red; color: yellow;}");
+
+            |   ^ (bad-continuation)
+W: 31, 0: Unnecessary semicolon (unnecessary-semicolon)
+C: 36, 0: Wrong hanging indentation (remove 4 spaces).
+                "QLabel { background-color : green;  color: yellow;}");
+
+            |   ^ (bad-continuation)
+W: 36, 0: Unnecessary semicolon (unnecessary-semicolon)
+C: 51, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  7, 0: Missing class docstring (missing-class-docstring)
+I:  7,14: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 17,43: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 18,50: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 22,26: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 28, 4: Missing function or method docstring (missing-function-docstring)
+C: 33, 4: Missing function or method docstring (missing-function-docstring)
+C: 38, 4: Missing function or method docstring (missing-function-docstring)
+I: 49,31: Module 'PyQt5.QtGui' has no 'QColor' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:  5, 0: Unused Menu imported from menu.menu (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 6.56/10 (previous run: 6.56/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module toolsettings
+C: 27,37: Exactly one space required after comma
+    def setup(self, name, setrange=(0,0,100), units=None, step=0.1, dec_precision=0, current=None,
+
+                                     ^ (bad-whitespace)
+C: 27,39: Exactly one space required after comma
+    def setup(self, name, setrange=(0,0,100), units=None, step=0.1, dec_precision=0, current=None,
+
+                                       ^ (bad-whitespace)
+C: 28, 0: Wrong continued indentation (add 2 spaces).
+            show_fraction=False):
+
+            ^ | (bad-continuation)
+C: 62, 0: Wrong hanging indentation (remove 4 spaces).
+                "name": "Param",
+
+            |   ^ (bad-continuation)
+C: 63, 0: Wrong hanging indentation (remove 4 spaces).
+                "default": 50,
+
+            |   ^ (bad-continuation)
+C: 64, 0: Wrong hanging indentation (remove 4 spaces).
+                "min": 0,
+
+            |   ^ (bad-continuation)
+C: 65, 0: Wrong hanging indentation (remove 4 spaces).
+                "max": 100,
+
+            |   ^ (bad-continuation)
+C: 66, 0: Wrong hanging indentation (remove 4 spaces).
+                "current": None,
+
+            |   ^ (bad-continuation)
+C: 67, 0: Wrong hanging indentation (remove 4 spaces).
+                "units": "-",
+
+            |   ^ (bad-continuation)
+C: 68, 0: Wrong hanging indentation (remove 4 spaces).
+                "step": 1,
+
+            |   ^ (bad-continuation)
+C: 69, 0: Wrong hanging indentation (remove 4 spaces).
+                "dec_precision": 0,
+
+            |   ^ (bad-continuation)
+C: 70, 0: Wrong hanging indentation (remove 4 spaces).
+                "show_fraction": False}
+
+            |   ^ (bad-continuation)
+C: 73, 0: Wrong hanging indentation (remove 4 spaces).
+                entry.get("name", toolsettings_default["name"]),
+
+            |   ^ (bad-continuation)
+C: 74, 0: Wrong hanging indentation (remove 4 spaces).
+                setrange=(
+
+            |   ^ (bad-continuation)
+C: 78, 0: Wrong hanging indentation (remove 4 spaces).
+                units=entry.get("units", toolsettings_default["units"]),
+
+            |   ^ (bad-continuation)
+C: 79, 0: Wrong hanging indentation (remove 4 spaces).
+                step=entry.get("step", toolsettings_default["step"]),
+
+            |   ^ (bad-continuation)
+C: 80, 0: Wrong hanging indentation (remove 4 spaces).
+                current=entry.get("current", toolsettings_default["current"]),
+
+            |   ^ (bad-continuation)
+C: 81, 0: Wrong hanging indentation (remove 4 spaces).
+                dec_precision=entry.get("dec_precision", toolsettings_default["dec_precision"]),
+
+            |   ^ (bad-continuation)
+C: 82, 0: Wrong hanging indentation (remove 4 spaces).
+                show_fraction=entry.get("show_fraction", toolsettings_default["show_fraction"]))
+
+            |   ^ (bad-continuation)
+C: 87,40: Exactly one space required after comma
+    def update_range(self, valuerange=(0,1), step=0.1):
+
+                                        ^ (bad-whitespace)
+C:128, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+C:  5, 0: Missing class docstring (missing-class-docstring)
+R:  5, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+I:  5,19: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 14,41: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 15,42: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 16,43: Module 'PyQt5.QtWidgets' has no 'QProgressBar' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 17,40: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 18,40: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 19,42: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 24,31: Module 'PyQt5.QtGui' has no 'QColor' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+R: 27, 4: Too many arguments (8/5) (too-many-arguments)
+C: 60, 4: Missing function or method docstring (missing-function-docstring)
+C: 84, 4: Missing function or method docstring (missing-function-docstring)
+W: 46, 8: Attribute 'value' defined outside __init__ (attribute-defined-outside-init)
+W:127, 8: Attribute 'value' defined outside __init__ (attribute-defined-outside-init)
+W: 48, 8: Attribute 'dec_precision' defined outside __init__ (attribute-defined-outside-init)
+W: 49, 8: Attribute 'current' defined outside __init__ (attribute-defined-outside-init)
+W: 50, 8: Attribute 'show_fraction' defined outside __init__ (attribute-defined-outside-init)
+W: 85, 8: Attribute '_config' defined outside __init__ (attribute-defined-outside-init)
+W: 94, 8: Attribute 'min' defined outside __init__ (attribute-defined-outside-init)
+W: 95, 8: Attribute 'max' defined outside __init__ (attribute-defined-outside-init)
+W: 96, 8: Attribute 'step' defined outside __init__ (attribute-defined-outside-init)
+W: 99, 8: Attribute 'slider_scale' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+
+Your code has been rated at 3.15/10 (previous run: 3.15/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module mvm_gui
+C: 36,26: No space allowed after bracket
+                          { msg.Retry: lambda: connect_esp32(config),
+
+                          ^ (bad-whitespace)
+C: 66, 0: Trailing newlines (trailing-newlines)
+E: 10, 0: No name 'QMessageBox' in module 'PyQt5.QtWidgets' (no-name-in-module)
+C: 20, 0: Missing function or method docstring (missing-function-docstring)
+W: 20,18: Redefining name 'config' from outer scope (line 48) (redefined-outer-name)
+W: 25,12: Redefining name 'esp32' from outer scope (line 53) (redefined-outer-name)
+W: 31,11: Catching too general exception Exception (broad-except)
+C: 33, 8: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Constant name "base_dir" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 45, 4: Constant name "settings_file" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 48, 8: Constant name "config" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 51, 4: Constant name "app" doesn't conform to UPPER_CASE naming style (invalid-name)
+I: 51,10: Module 'PyQt5.QtWidgets' has no 'QApplication' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 53, 4: Constant name "esp32" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 56, 8: Consider using sys.exit() (consider-using-sys-exit)
+C: 58, 4: Constant name "watchdog" doesn't conform to UPPER_CASE naming style (invalid-name)
+I: 58,15: Module 'PyQt5.QtCore' has no 'QTimer' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 62, 4: Constant name "window" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:  9, 0: Unused QtGui imported from PyQt5 (unused-import)
+W: 10, 0: Unused QMessageBox imported from PyQt5.QtWidgets (unused-import)
+W: 11, 0: Unused uic imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 4.65/10 (previous run: 4.65/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module settings
+C:142, 0: Line too long (105/100) (line-too-long)
+C:143, 0: Line too long (105/100) (line-too-long)
+C:144, 0: Line too long (115/100) (line-too-long)
+C:152, 0: Line too long (116/100) (line-too-long)
+C:153, 0: Line too long (116/100) (line-too-long)
+C:154, 0: Line too long (110/100) (line-too-long)
+C:156, 0: Wrong continued indentation (add 50 spaces).
+                self.spawn_presets_window('pcv_trigger_pressure'))
+
+                ^                                                 | (bad-continuation)
+C:159, 0: Line too long (116/100) (line-too-long)
+C:160, 0: Line too long (108/100) (line-too-long)
+C:161, 0: Line too long (116/100) (line-too-long)
+C:163, 0: Wrong continued indentation (add 44 spaces).
+                self.spawn_presets_window('max_apnea_time'))
+
+                ^                                           | (bad-continuation)
+C:167, 0: Wrong continued indentation (add 47 spaces).
+                self.spawn_presets_window('lung_recruit_pres'))
+
+                ^                                              | (bad-continuation)
+C:169, 0: Wrong continued indentation (add 47 spaces).
+                self.spawn_presets_window('lung_recruit_time'))
+
+                ^                                              | (bad-continuation)
+C:180, 0: Line too long (107/100) (line-too-long)
+C:181, 0: Line too long (109/100) (line-too-long)
+C:182, 0: Line too long (113/100) (line-too-long)
+C:306, 0: Wrong continued indentation (add 18 spaces).
+                    'from', value/self._config[param].get('conversion', 1.), 'to', value)
+
+                    ^                 | (bad-continuation)
+C:354, 0: Trailing newlines (trailing-newlines)
+W:178, 2: TODO (fixme)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+W:  3, 0: Reimport 'QtWidgets' (imported line 2) (reimported)
+E:  7, 0: Attempted relative import beyond top-level package (relative-beyond-top-level)
+C: 11, 0: Missing class docstring (missing-class-docstring)
+R: 11, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+I: 11,15: Module 'PyQt5.QtWidgets' has no 'QMainWindow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 77, 4: Missing function or method docstring (missing-function-docstring)
+C:110, 4: Missing function or method docstring (missing-function-docstring)
+I:142,67: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:143,67: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:144,72: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:232, 4: Empty method docstring (empty-docstring)
+C:305,32: More than one statement on a single line (multiple-statements)
+C:308,28: More than one statement on a single line (multiple-statements)
+W:  3, 0: Unused QtCore imported from PyQt5 (unused-import)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+W:  4, 0: Unused import os (unused-import)
+W:  5, 0: Unused import yaml (unused-import)
+C:  4, 0: standard import "import os" should be placed before "from PyQt5 import QtWidgets, uic" (wrong-import-order)
+C:  6, 0: standard import "import copy" should be placed before "from PyQt5 import QtWidgets, uic" (wrong-import-order)
+C:  9, 0: first party import "from presets.presets import Presets" should be placed before "from .settingsfile import SettingsFile" (wrong-import-order)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.58/10 (previous run: 7.58/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module communication.peep
+C: 15,14: No space allowed before bracket
+        print ('Simulator Config:', yaml.dump(config), sep='\n')
+
+              ^ (bad-whitespace)
+C: 33, 0: Wrong continued indentation (add 3 spaces).
+                                                   self.t4, self.t5))
+
+                                                   ^  | (bad-continuation)
+C: 68,36: No space allowed around keyword argument assignment
+        p += np.random.normal(scale = (self.p2 - self.p1)*self.resolution)
+
+                                    ^ (bad-whitespace)
+C: 95,36: No space allowed around keyword argument assignment
+        f += np.random.normal(scale = (self.f1 - self.f2)*self.resolution)
+
+                                    ^ (bad-whitespace)
+C:100,55: No space allowed around keyword argument assignment
+        self.t0 = time.time() + np.random.normal(scale = self.btiming_fluctuations)
+
+                                                       ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+W:  8,-1: String statement has no effect (pointless-string-statement)
+C:  9, 0: Class name "peep" doesn't conform to PascalCase naming style (invalid-name)
+C: 16, 8: Attribute name "t1" doesn't conform to snake_case naming style (invalid-name)
+C: 17, 8: Attribute name "t2" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 8: Attribute name "t3" doesn't conform to snake_case naming style (invalid-name)
+C: 19, 8: Attribute name "t4" doesn't conform to snake_case naming style (invalid-name)
+C: 20, 8: Attribute name "t5" doesn't conform to snake_case naming style (invalid-name)
+C: 21, 8: Attribute name "p0" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 8: Attribute name "p1" doesn't conform to snake_case naming style (invalid-name)
+C: 23, 8: Attribute name "p2" doesn't conform to snake_case naming style (invalid-name)
+C: 24, 8: Attribute name "f1" doesn't conform to snake_case naming style (invalid-name)
+C: 25, 8: Attribute name "f2" doesn't conform to snake_case naming style (invalid-name)
+C: 26, 8: Attribute name "f3" doesn't conform to snake_case naming style (invalid-name)
+C: 27, 8: Attribute name "f4" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 8: Attribute name "t0" doesn't conform to snake_case naming style (invalid-name)
+C:  9, 0: Missing class docstring (missing-class-docstring)
+R:  9, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+C: 13,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 42, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 44,11: Simplify chained comparison between the operands (chained-comparison)
+C: 46,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 47,12: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 48,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 49,13: Simplify chained comparison between the operands (chained-comparison)
+C: 53,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 54,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C: 55,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 56,13: Simplify chained comparison between the operands (chained-comparison)
+C: 58,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R: 59,13: Simplify chained comparison between the operands (chained-comparison)
+C: 62,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C: 63,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 76, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R: 77,11: Simplify chained comparison between the operands (chained-comparison)
+C: 81,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C: 82,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 83,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R: 84,13: Simplify chained comparison between the operands (chained-comparison)
+C: 88,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C: 89,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 90,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 4: Missing function or method docstring (missing-function-docstring)
+C:  3, 0: standard import "import os" should be placed before "import numpy as np" (wrong-import-order)
+
+------------------------------------------------------------------
+
+Your code has been rated at 2.64/10 (previous run: 2.64/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module data_filler
+C:  5,21: Trailing whitespace (trailing-whitespace)
+C: 52, 0: Wrong continued indentation (add 36 spaces).
+                200)
+
+                ^                                   | (bad-continuation)
+C: 93, 0: Line too long (101/100) (line-too-long)
+C:139, 0: Trailing whitespace (trailing-whitespace)
+C:185,21: Trailing whitespace (trailing-whitespace)
+C:193,26: Trailing whitespace (trailing-whitespace)
+C:196,43: Trailing whitespace (trailing-whitespace)
+C:197,39: Trailing whitespace (trailing-whitespace)
+C:225, 0: Line too long (101/100) (line-too-long)
+C:245, 0: Wrong continued indentation (add 11 spaces).
+                                         angle=90,
+
+                                         ^          | (bad-continuation)
+C:246, 0: Wrong continued indentation (add 11 spaces).
+                                         movable=False,
+
+                                         ^          | (bad-continuation)
+C:247, 0: Wrong continued indentation (add 11 spaces).
+                                         pen=pg.mkPen(cosmetic=False,
+
+                                         ^          | (bad-continuation)
+C:270,62: No space allowed before comma
+        print('NORMAL: Connected monitor', monitor.configname , 'with variable', name)
+
+                                                              ^ (bad-whitespace)
+C:382, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+R:  7, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+R: 40, 4: Useless return at end of function or method (useless-return)
+E:177,12: No value for argument 'name' in method call (no-value-for-parameter)
+C:182, 4: Method name "updateTicks" doesn't conform to snake_case naming style (invalid-name)
+C:191, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+I:223,24: Module 'PyQt5.QtGui' has no 'QGraphicsTextItem' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:228, 8: Variable name "br" doesn't conform to snake_case naming style (invalid-name)
+C:229, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+I:229,12: Module 'PyQt5.QtCore' has no 'QPointF' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:231, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:232, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:230, 8: Unused variable 'axis' (unused-variable)
+W:231, 8: Unused variable 'x' (unused-variable)
+I:250,60: Module 'PyQt5.QtCore' has no 'Qt' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:347,20: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+W:361,18: Unused variable 'plot' (unused-variable)
+C:377, 4: Missing function or method docstring (missing-function-docstring)
+R:377, 4: Method could be a function (no-self-use)
+W:223, 8: Attribute '_x_label' defined outside __init__ (attribute-defined-outside-init)
+C:  4, 0: standard import "from ast import literal_eval" should be placed before "from PyQt5 import QtGui, QtCore" (wrong-import-order)
+C:  5, 0: standard import "from copy import copy" should be placed before "from PyQt5 import QtGui, QtCore" (wrong-import-order)
+
+------------------------------------------------------------------
+
+Your code has been rated at 7.91/10 (previous run: 8.10/10, -0.19)
+PyLint: The stdout of the command line is:
+ ************* Module frozenplots
+C: 26,38: Trailing whitespace (trailing-whitespace)
+C: 38, 0: Wrong continued indentation (add 29 spaces).
+                    rateLimit=60, slot=self.update_cursor)
+
+                    ^                            | (bad-continuation)
+C: 53,45: Trailing whitespace (trailing-whitespace)
+C: 56,30: Exactly one space required after :
+        for c in self.cursor_x:     c.setVisible(True)
+
+                              ^ (bad-whitespace)
+C: 57,30: Exactly one space required after :
+        for c in self.cursor_y:     c.setVisible(True)
+
+                              ^ (bad-whitespace)
+C: 62,45: Trailing whitespace (trailing-whitespace)
+C: 65,30: Exactly one space required after :
+        for c in self.cursor_x:     c.setVisible(False)
+
+                              ^ (bad-whitespace)
+C: 66,30: Exactly one space required after :
+        for c in self.cursor_y:     c.setVisible(False)
+
+                              ^ (bad-whitespace)
+C: 91, 0: Trailing whitespace (trailing-whitespace)
+C:153,14: Trailing whitespace (trailing-whitespace)
+C:155,13: Trailing whitespace (trailing-whitespace)
+C:305, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+R:  7, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C: 56,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 56,36: More than one statement on a single line (multiple-statements)
+C: 57,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 57,36: More than one statement on a single line (multiple-statements)
+C: 58,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 58,36: More than one statement on a single line (multiple-statements)
+C: 65,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 65,36: More than one statement on a single line (multiple-statements)
+C: 66,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 66,36: More than one statement on a single line (multiple-statements)
+C: 67,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 67,36: More than one statement on a single line (multiple-statements)
+C: 88,12: Variable name "vb" doesn't conform to snake_case naming style (invalid-name)
+C: 90,16: Variable name "mousePoint" doesn't conform to snake_case naming style (invalid-name)
+R: 99,19: Simplify chained comparison between the operands (chained-comparison)
+C:112, 0: Missing class docstring (missing-class-docstring)
+I:112,28: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:113,19: Module 'PyQt5.QtCore' has no 'pyqtSignal' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:114,19: Module 'PyQt5.QtCore' has no 'pyqtSignal' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:125,48: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:126,36: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:129, 4: Method name "showEvent" doesn't conform to snake_case naming style (invalid-name)
+C:129, 4: Missing function or method docstring (missing-function-docstring)
+C:133, 4: Method name "hideEvent" doesn't conform to snake_case naming style (invalid-name)
+C:133, 4: Missing function or method docstring (missing-function-docstring)
+C:152, 4: Argument name "on" doesn't conform to snake_case naming style (invalid-name)
+C:152, 4: Missing function or method docstring (missing-function-docstring)
+C:159, 4: Missing function or method docstring (missing-function-docstring)
+W:161,15: Catching too general exception Exception (broad-except)
+C:160,13: More than one statement on a single line (multiple-statements)
+C:161,26: More than one statement on a single line (multiple-statements)
+W:147, 8: Attribute '_cursor' defined outside __init__ (attribute-defined-outside-init)
+C:164, 0: Missing class docstring (missing-class-docstring)
+I:164,27: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:174,40: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:175,40: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:176,40: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:189, 4: Missing function or method docstring (missing-function-docstring)
+W:187, 8: Attribute '_cursor' defined outside __init__ (attribute-defined-outside-init)
+C:194, 0: Missing class docstring (missing-class-docstring)
+I:194,12: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:204,42: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:205,43: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:206,40: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:207,42: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:212, 4: Missing function or method docstring (missing-function-docstring)
+W:214,15: Catching too general exception Exception (broad-except)
+C:213,13: More than one statement on a single line (multiple-statements)
+C:214,26: More than one statement on a single line (multiple-statements)
+W:216,15: Catching too general exception Exception (broad-except)
+C:215,13: More than one statement on a single line (multiple-statements)
+C:216,26: More than one statement on a single line (multiple-statements)
+W:218,15: Catching too general exception Exception (broad-except)
+C:217,13: More than one statement on a single line (multiple-statements)
+C:218,26: More than one statement on a single line (multiple-statements)
+W:220,15: Catching too general exception Exception (broad-except)
+C:219,13: More than one statement on a single line (multiple-statements)
+C:220,26: More than one statement on a single line (multiple-statements)
+C:222, 4: Missing function or method docstring (missing-function-docstring)
+C:230, 4: Missing function or method docstring (missing-function-docstring)
+C:234, 4: Missing function or method docstring (missing-function-docstring)
+C:238, 4: Missing function or method docstring (missing-function-docstring)
+W:239,10: Unused variable 'xmin' (unused-variable)
+W:239,16: Unused variable 'xmax' (unused-variable)
+C:242, 4: Missing function or method docstring (missing-function-docstring)
+C:246, 4: Missing function or method docstring (missing-function-docstring)
+W:228, 8: Attribute '_cursor' defined outside __init__ (attribute-defined-outside-init)
+C:250, 0: Missing class docstring (missing-class-docstring)
+I:250,12: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:260,42: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:261,43: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:262,42: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:263,43: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:268, 4: Missing function or method docstring (missing-function-docstring)
+C:276, 4: Missing function or method docstring (missing-function-docstring)
+W:278,15: Catching too general exception Exception (broad-except)
+C:277,13: More than one statement on a single line (multiple-statements)
+C:278,26: More than one statement on a single line (multiple-statements)
+W:280,15: Catching too general exception Exception (broad-except)
+C:279,13: More than one statement on a single line (multiple-statements)
+C:280,26: More than one statement on a single line (multiple-statements)
+W:282,15: Catching too general exception Exception (broad-except)
+C:281,13: More than one statement on a single line (multiple-statements)
+C:282,26: More than one statement on a single line (multiple-statements)
+W:284,15: Catching too general exception Exception (broad-except)
+C:283,13: More than one statement on a single line (multiple-statements)
+C:284,26: More than one statement on a single line (multiple-statements)
+C:286, 4: Missing function or method docstring (missing-function-docstring)
+C:290, 4: Missing function or method docstring (missing-function-docstring)
+C:294, 4: Missing function or method docstring (missing-function-docstring)
+W:295,24: Unused variable 'ymin' (unused-variable)
+W:295,30: Unused variable 'ymax' (unused-variable)
+C:298, 4: Missing function or method docstring (missing-function-docstring)
+C:302, 4: Missing function or method docstring (missing-function-docstring)
+W:274, 8: Attribute '_cursor' defined outside __init__ (attribute-defined-outside-init)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+
+------------------------------------------------------------------
+
+Your code has been rated at 5.56/10 (previous run: 5.56/10, +0.00)
+PyLint: The stdout of the command line is:
+ ************* Module mainwindow
+C: 54,24: Exactly one space required before assignment
+        self.toppane    = self.findChild(QtWidgets.QStackedWidget, "toppane")
+
+                        ^ (bad-whitespace)
+C: 55,24: Exactly one space required before assignment
+        self.main       = self.findChild(QtWidgets.QWidget,        "main")
+
+                        ^ (bad-whitespace)
+C: 55,58: Exactly one space required after comma
+        self.main       = self.findChild(QtWidgets.QWidget,        "main")
+
+                                                          ^ (bad-whitespace)
+C: 56,24: Exactly one space required before assignment
+        self.initial    = self.findChild(QtWidgets.QWidget,        "initial")
+
+                        ^ (bad-whitespace)
+C: 56,58: Exactly one space required after comma
+        self.initial    = self.findChild(QtWidgets.QWidget,        "initial")
+
+                                                          ^ (bad-whitespace)
+C: 57,24: Exactly one space required before assignment
+        self.startup    = self.findChild(QtWidgets.QWidget,        "startup")
+
+                        ^ (bad-whitespace)
+C: 57,58: Exactly one space required after comma
+        self.startup    = self.findChild(QtWidgets.QWidget,        "startup")
+
+                                                          ^ (bad-whitespace)
+C: 63,32: Exactly one space required before assignment
+        self.centerpane         = self.findChild(QtWidgets.QStackedWidget, "centerpane")
+
+                                ^ (bad-whitespace)
+C: 64,32: Exactly one space required before assignment
+        self.plots_all          = self.findChild(QtWidgets.QWidget,        "plots_all")
+
+                                ^ (bad-whitespace)
+C: 64,66: Exactly one space required after comma
+        self.plots_all          = self.findChild(QtWidgets.QWidget,        "plots_all")
+
+                                                                  ^ (bad-whitespace)
+C: 65,32: Exactly one space required before assignment
+        self.alarms_settings    = self.findChild(QtWidgets.QWidget,        "alarms_settings")
+
+                                ^ (bad-whitespace)
+C: 65,66: Exactly one space required after comma
+        self.alarms_settings    = self.findChild(QtWidgets.QWidget,        "alarms_settings")
+
+                                                                  ^ (bad-whitespace)
+C: 70,29: Exactly one space required before assignment
+        self.bottombar       = self.findChild(QtWidgets.QStackedWidget, "bottombar")
+
+                             ^ (bad-whitespace)
+C: 71,29: Exactly one space required before assignment
+        self.toolbar         = self.findChild(QtWidgets.QWidget,        "toolbar")
+
+                             ^ (bad-whitespace)
+C: 71,63: Exactly one space required after comma
+        self.toolbar         = self.findChild(QtWidgets.QWidget,        "toolbar")
+
+                                                               ^ (bad-whitespace)
+C: 72,29: Exactly one space required before assignment
+        self.menu            = self.findChild(QtWidgets.QWidget,        "menu")
+
+                             ^ (bad-whitespace)
+C: 72,63: Exactly one space required after comma
+        self.menu            = self.findChild(QtWidgets.QWidget,        "menu")
+
+                                                               ^ (bad-whitespace)
+C: 73,29: Exactly one space required before assignment
+        self.frozen_bot      = self.findChild(QtWidgets.QWidget,        "frozenplots_bottom")
+
+                             ^ (bad-whitespace)
+C: 73,63: Exactly one space required after comma
+        self.frozen_bot      = self.findChild(QtWidgets.QWidget,        "frozenplots_bottom")
+
+                                                               ^ (bad-whitespace)
+C: 74,29: Exactly one space required before assignment
+        self.settingsbar     = self.findChild(QtWidgets.QWidget,        "settingsbar")
+
+                             ^ (bad-whitespace)
+C: 74,63: Exactly one space required after comma
+        self.settingsbar     = self.findChild(QtWidgets.QWidget,        "settingsbar")
+
+                                                               ^ (bad-whitespace)
+C: 75,29: Exactly one space required before assignment
+        self.specialbar      = self.findChild(QtWidgets.QWidget,        "specialbar")
+
+                             ^ (bad-whitespace)
+C: 75,63: Exactly one space required after comma
+        self.specialbar      = self.findChild(QtWidgets.QWidget,        "specialbar")
+
+                                                               ^ (bad-whitespace)
+C: 76,29: Exactly one space required before assignment
+        self.blank           = self.findChild(QtWidgets.QWidget,        "blank")
+
+                             ^ (bad-whitespace)
+C: 76,63: Exactly one space required after comma
+        self.blank           = self.findChild(QtWidgets.QWidget,        "blank")
+
+                                                               ^ (bad-whitespace)
+C: 77,29: Exactly one space required before assignment
+        self.settingsfork    = self.findChild(QtWidgets.QWidget,        "settingsforkbar")
+
+                             ^ (bad-whitespace)
+C: 77,63: Exactly one space required after comma
+        self.settingsfork    = self.findChild(QtWidgets.QWidget,        "settingsforkbar")
+
+                                                               ^ (bad-whitespace)
+C: 78,29: Exactly one space required before assignment
+        self.alarmsbar       = self.findChild(QtWidgets.QWidget,        "alarmsbar")
+
+                             ^ (bad-whitespace)
+C: 78,63: Exactly one space required after comma
+        self.alarmsbar       = self.findChild(QtWidgets.QWidget,        "alarmsbar")
+
+                                                               ^ (bad-whitespace)
+C: 79,29: Exactly one space required before assignment
+        self.numpadbar       = self.findChild(QtWidgets.QWidget,        "numpadbar")
+
+                             ^ (bad-whitespace)
+C: 79,63: Exactly one space required after comma
+        self.numpadbar       = self.findChild(QtWidgets.QWidget,        "numpadbar")
+
+                                                               ^ (bad-whitespace)
+C: 84,28: Exactly one space required before assignment
+        self.rightbar       = self.main.findChild(QtWidgets.QStackedWidget, "rightbar")
+
+                            ^ (bad-whitespace)
+C: 85,28: Exactly one space required before assignment
+        self.monitors_bar   = self.main.findChild(QtWidgets.QWidget,        "monitors_bar")
+
+                            ^ (bad-whitespace)
+C: 85,67: Exactly one space required after comma
+        self.monitors_bar   = self.main.findChild(QtWidgets.QWidget,        "monitors_bar")
+
+                                                                   ^ (bad-whitespace)
+C: 86,28: Exactly one space required before assignment
+        self.frozen_right   = self.main.findChild(QtWidgets.QWidget,        "frozenplots_right")
+
+                            ^ (bad-whitespace)
+C: 86,67: Exactly one space required after comma
+        self.frozen_right   = self.main.findChild(QtWidgets.QWidget,        "frozenplots_right")
+
+                                                                   ^ (bad-whitespace)
+C: 91, 0: Line too long (104/100) (line-too-long)
+C: 91,35: Exactly one space required before assignment
+        self.button_new_patient    = self.initial.findChild(QtWidgets.QPushButton, "button_new_patient")
+
+                                   ^ (bad-whitespace)
+C: 92, 0: Line too long (107/100) (line-too-long)
+C: 95, 0: Line too long (107/100) (line-too-long)
+C: 96, 0: Line too long (103/100) (line-too-long)
+C: 96,35: Exactly one space required before assignment
+        self.button_start_vent     = self.startup.findChild(QtWidgets.QPushButton, "button_start_vent")
+
+                                   ^ (bad-whitespace)
+C: 97, 0: Line too long (103/100) (line-too-long)
+C: 97,35: Exactly one space required before assignment
+        self.button_start_test     = self.startup.findChild(QtWidgets.QPushButton, "button_start_test")
+
+                                   ^ (bad-whitespace)
+C:102,26: Exactly one space required before assignment
+        self.button_menu  = self.toolbar.findChild(QtWidgets.QPushButton, "button_menu")
+
+                          ^ (bad-whitespace)
+C:103, 0: Line too long (104/100) (line-too-long)
+C:103,34: Exactly one space required before assignment
+        self.button_unlockscreen  = self.toolbar.findChild(QtWidgets.QPushButton, "button_unlockscreen")
+
+                                  ^ (bad-whitespace)
+C:104,26: Exactly one space required before assignment
+        self.home_button  = self.toolbar.findChild(QtWidgets.QWidget, "home_button")
+
+                          ^ (bad-whitespace)
+C:105,26: Exactly one space required before assignment
+        self.goto_menu    = self.toolbar.findChild(QtWidgets.QWidget, "goto_menu")
+
+                          ^ (bad-whitespace)
+C:106,26: Exactly one space required before assignment
+        self.goto_unlock  = self.toolbar.findChild(QtWidgets.QWidget, "goto_unlock")
+
+                          ^ (bad-whitespace)
+C:107,67: Exactly one space required after comma
+        self.label_status = self.toolbar.findChild(QtWidgets.QLabel,  "label_status")
+
+                                                                   ^ (bad-whitespace)
+W:110, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:120,33: Exactly one space required before assignment
+        self.button_back         = self.menu.findChild(QtWidgets.QPushButton, "button_back")
+
+                                 ^ (bad-whitespace)
+C:122,33: Exactly one space required before assignment
+        self.button_startstop    = self.menu.findChild(QtWidgets.QPushButton, "button_startstop")
+
+                                 ^ (bad-whitespace)
+C:123,33: Exactly one space required before assignment
+        self.button_autoassist   = self.menu.findChild(QtWidgets.QPushButton, "button_autoassist")
+
+                                 ^ (bad-whitespace)
+C:124,33: Exactly one space required before assignment
+        self.button_specialops   = self.menu.findChild(QtWidgets.QPushButton, "button_specialops")
+
+                                 ^ (bad-whitespace)
+C:126, 0: Line too long (102/100) (line-too-long)
+C:126,33: Exactly one space required before assignment
+        self.button_alarms       = self.settingsfork.findChild(QtWidgets.QPushButton, "button_alarms")
+
+                                 ^ (bad-whitespace)
+C:127, 0: Line too long (104/100) (line-too-long)
+C:127,33: Exactly one space required before assignment
+        self.button_settings     = self.settingsfork.findChild(QtWidgets.QPushButton, "button_settings")
+
+                                 ^ (bad-whitespace)
+C:128, 0: Line too long (106/100) (line-too-long)
+C:128,33: Exactly one space required before assignment
+        self.button_lockscreen   = self.settingsfork.findChild(QtWidgets.QPushButton, "button_lockscreen")
+
+                                 ^ (bad-whitespace)
+C:129, 0: Line too long (108/100) (line-too-long)
+C:132, 0: Line too long (101/100) (line-too-long)
+C:133, 0: Line too long (101/100) (line-too-long)
+C:134, 0: Line too long (101/100) (line-too-long)
+C:135,30: Exactly one space required before assignment
+        self.button_upalarm   = self.alarmsbar.findChild(QtWidgets.QPushButton, "button_upalarm")
+
+                              ^ (bad-whitespace)
+C:136, 0: Line too long (101/100) (line-too-long)
+C:136,32: Exactly one space required before assignment
+        self.button_downalarm   = self.alarmsbar.findChild(QtWidgets.QPushButton, "button_downalarm")
+
+                                ^ (bad-whitespace)
+C:137,31: Exactly one space required before assignment
+        self.button_offalarm   = self.alarmsbar.findChild(QtWidgets.QPushButton, "button_offalarm")
+
+                               ^ (bad-whitespace)
+C:139,33: Exactly one space required before assignment
+        self.button_freeze       = self.specialbar.findChild(QtWidgets.QPushButton, "button_freeze")
+
+                                 ^ (bad-whitespace)
+C:140, 0: Line too long (105/100) (line-too-long)
+C:140,33: Exactly one space required before assignment
+        self.button_backspecial  = self.specialbar.findChild(QtWidgets.QPushButton, "button_backspecial")
+
+                                 ^ (bad-whitespace)
+C:145,29: Exactly one space required after assignment
+        self.button_unfreeze =   self.frozen_bot.findChild(QtWidgets.QPushButton, "button_unfreeze")
+
+                             ^ (bad-whitespace)
+W:208, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:223, 0: Unnecessary semicolon (unnecessary-semicolon)
+C:275, 0: Wrong continued indentation (add 41 spaces).
+                self.config, self.esp32)
+
+                ^                                        | (bad-continuation)
+C:292, 0: Wrong hanging indentation (remove 4 spaces).
+                self,
+
+            |   ^ (bad-continuation)
+C:293, 0: Wrong hanging indentation (remove 4 spaces).
+                self.config,
+
+            |   ^ (bad-continuation)
+C:294, 0: Wrong hanging indentation (remove 4 spaces).
+                self.esp32,
+
+            |   ^ (bad-continuation)
+C:295, 0: Wrong hanging indentation (remove 4 spaces).
+                self.button_startstop,
+
+            |   ^ (bad-continuation)
+C:296, 0: Wrong hanging indentation (remove 4 spaces).
+                self.button_autoassist,
+
+            |   ^ (bad-continuation)
+C:297, 0: Wrong hanging indentation (remove 4 spaces).
+                self.toolbar,
+
+            |   ^ (bad-continuation)
+C:298, 0: Wrong hanging indentation (remove 4 spaces).
+                self.settings)
+
+            |   ^ (bad-continuation)
+C:307, 0: Line too long (103/100) (line-too-long)
+C:378,40: No space allowed around keyword argument assignment
+    def show_toolbar(self, locked_state = False):
+
+                                        ^ (bad-whitespace)
+C:422, 0: Trailing newlines (trailing-newlines)
+W:153, 2: TODO: connect to circuit test on ESP (fixme)
+C:  1, 0: Missing module docstring (missing-module-docstring)
+W:  3, 0: Reimport 'QtWidgets' (imported line 2) (reimported)
+E:  7, 0: No name 'settings' in module 'settings' (no-name-in-module)
+E:  8, 0: No name 'settingsfile' in module 'settings' (no-name-in-module)
+E: 12, 0: No name 'settingsbar' in module 'settings' (no-name-in-module)
+C: 32, 0: Missing class docstring (missing-class-docstring)
+R: 32, 0: Too many instance attributes (66/7) (too-many-instance-attributes)
+I: 32,17: Module 'PyQt5.QtWidgets' has no 'QMainWindow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 54,41: Module 'PyQt5.QtWidgets' has no 'QStackedWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 55,41: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 56,41: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 57,41: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 63,49: Module 'PyQt5.QtWidgets' has no 'QStackedWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 64,49: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 65,49: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 70,46: Module 'PyQt5.QtWidgets' has no 'QStackedWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 71,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 72,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 73,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 74,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 75,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 76,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 77,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 78,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 79,46: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 84,50: Module 'PyQt5.QtWidgets' has no 'QStackedWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 85,50: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 86,50: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 91,60: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 92,60: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 95,60: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 96,60: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I: 97,60: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:102,51: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:103,59: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:104,51: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:105,51: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:106,51: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:107,51: Module 'PyQt5.QtWidgets' has no 'QLabel' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:113,50: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:119,-1: String statement has no effect (pointless-string-statement)
+I:120,55: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:121,55: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:122,55: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:123,55: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:124,55: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:126,63: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:127,63: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:128,63: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:129,63: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:132,58: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:133,58: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:134,58: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:135,57: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:136,59: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:137,58: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:139,61: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:140,61: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+I:145,59: Module 'PyQt5.QtWidgets' has no 'QPushButton' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:161,-1: String statement has no effect (pointless-string-statement)
+W:197,-1: String statement has no effect (pointless-string-statement)
+I:211,50: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:221,-1: String statement has no effect (pointless-string-statement)
+I:225,39: Module 'PyQt5.QtWidgets' has no 'QWidget' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C:243,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:243,41: More than one statement on a single line (multiple-statements)
+I:247,50: Module 'PyQt5.QtWidgets' has no 'QVBoxLayout' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:271,-1: String statement has no effect (pointless-string-statement)
+W:279,-1: String statement has no effect (pointless-string-statement)
+W:289,-1: String statement has no effect (pointless-string-statement)
+W:306,-1: String statement has no effect (pointless-string-statement)
+R: 33, 4: Too many statements (144/50) (too-many-statements)
+C:309, 4: Missing function or method docstring (missing-function-docstring)
+C:314, 4: Missing function or method docstring (missing-function-docstring)
+C:319, 4: Missing function or method docstring (missing-function-docstring)
+W:322,15: Access to a protected member _state of a client class (protected-access)
+W:323,16: Access to a protected member _state of a client class (protected-access)
+W:327,16: Access to a protected member _state of a client class (protected-access)
+C:330, 4: Missing function or method docstring (missing-function-docstring)
+C:333, 4: Missing function or method docstring (missing-function-docstring)
+C:338, 4: Missing function or method docstring (missing-function-docstring)
+C:347, 4: Missing function or method docstring (missing-function-docstring)
+C:351, 4: Missing function or method docstring (missing-function-docstring)
+C:355, 4: Missing function or method docstring (missing-function-docstring)
+C:360, 4: Missing function or method docstring (missing-function-docstring)
+C:365, 4: Missing function or method docstring (missing-function-docstring)
+C:369, 4: Missing function or method docstring (missing-function-docstring)
+C:372, 4: Missing function or method docstring (missing-function-docstring)
+C:375, 4: Missing function or method docstring (missing-function-docstring)
+C:391, 4: Missing function or method docstring (missing-function-docstring)
+C:394, 4: Missing function or method docstring (missing-function-docstring)
+C:397, 4: Missing function or method docstring (missing-function-docstring)
+C:400, 4: Missing function or method docstring (missing-function-docstring)
+C:403, 4: Missing function or method docstring (missing-function-docstring)
+C:406, 4: Missing function or method docstring (missing-function-docstring)
+C:409, 4: Missing function or method docstring (missing-function-docstring)
+C:412, 4: Missing function or method docstring (missing-function-docstring)
+C:418, 4: Missing function or method docstring (missing-function-docstring)
+R: 32, 0: Too many public methods (24/20) (too-many-public-methods)
+W:  3, 0: Unused QtCore imported from PyQt5 (unused-import)
+W:  3, 0: Unused QtGui imported from PyQt5 (unused-import)
+W:  6, 0: Unused MainDisplay imported from maindisplay.maindisplay (unused-import)
+W: 10, 0: Unused Toolbar imported from toolbar.toolbar (unused-import)
+W: 11, 0: Unused Menu imported from menu.menu (unused-import)
+W: 12, 0: Unused SettingsBar imported from settings.settingsbar (unused-import)
+W: 13, 0: Unused Alarms imported from alarms.alarms (unused-import)
+W: 15, 0: Unused AlarmsBar imported from alarms.alarmsbar (unused-import)
+W: 16, 0: Unused SpecialBar imported from special.special (unused-import)
+W: 18, 0: Unused ToolSettings imported from toolsettings.toolsettings (unused-import)
+W: 28, 0: Unused pyqtgraph imported as pg (unused-import)
+W: 29, 0: Unused import sys (unused-import)
+W: 30, 0: Unused import time (unused-import)
+C: 28, 0: third party import "import pyqtgraph as pg" should be placed before "from maindisplay.maindisplay import MainDisplay" (wrong-import-order)
+C: 29, 0: standard import "import sys" should be placed before "from PyQt5 import QtWidgets, uic" (wrong-import-order)
+C: 30, 0: standard import "import time" should be placed before "from PyQt5 import QtWidgets, uic" (wrong-import-order)
+C: 12, 0: Imports from package settings are not grouped (ungrouped-imports)
+
+------------------------------------------------------------------
+
+Your code has been rated at 3.62/10 (previous run: 3.49/10, +0.13)

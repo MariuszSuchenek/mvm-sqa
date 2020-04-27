@@ -1,0 +1,217 @@
+Test results:
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   Location: gui/alarms/guialarms.py:120
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b101_assert_used.html
+119	        '''
+120	        assert(observable in self._obs)
+121	
+122	        self._obs[observable]["setmin"] = minimum
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:94
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+93	            elif name == "battery_charge":
+94	                generator = lambda: int(random.uniform(0, 100))
+95	            elif name == "tidal":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:96
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+95	            elif name == "tidal":
+96	                generator = lambda: random.uniform(1000, 1500)
+97	            elif name == "peep":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:98
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+97	            elif name == "peep":
+98	                generator = lambda: random.uniform(4, 20)
+99	            elif name == "temperature":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:100
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+99	            elif name == "temperature":
+100	                generator = lambda: random.uniform(10, 50)
+101	            elif name == "battery_powered":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:102
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+101	            elif name == "battery_powered":
+102	                generator = lambda: int(random.uniform(0, 1.5))
+103	            elif name == "bpm":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:104
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+103	            elif name == "bpm":
+104	                generator = lambda: random.uniform(10, 100)
+105	            elif name == "o2":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:106
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+105	            elif name == "o2":
+106	                generator = lambda: random.uniform(10, 100)
+107	            elif name == "peak":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:108
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+107	            elif name == "peak":
+108	                generator = lambda: random.uniform(10, 100)
+109	            elif name == "total_inspired_volume":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:110
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+109	            elif name == "total_inspired_volume":
+110	                generator = lambda: random.uniform(10, 100)
+111	            elif name == "total_expired_volume":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:112
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+111	            elif name == "total_expired_volume":
+112	                generator = lambda: random.uniform(10, 100)
+113	            elif name == "volume_minute":
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:114
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+113	            elif name == "volume_minute":
+114	                generator = lambda: random.uniform(10, 100)
+115	            else:
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:116
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+115	            else:
+116	                generator = lambda: random.uniform(10, 100)
+117	
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   Location: gui/communication/fake_esp32serial.py:261
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b311-random
+260	        else:
+261	            retval = int(random.uniform(10, 100))
+262	
+--------------------------------------------------
+>> Issue: [B506:yaml_load] Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().
+   Severity: Medium   Confidence: High
+   Location: gui/communication/peep.py:14
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html
+13	        with open(settings_file) as f:
+14	            config = yaml.load(f, Loader=yaml.FullLoader)
+15	        print ('Simulator Config:', yaml.dump(config), sep='\n')
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:161
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+160	        try: self.button_reset_zoom.pressed.disconnect()
+161	        except Exception: pass
+162	        self.xzoom.disconnect_workers()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:214
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+213	        try: self.button_plus.pressed.disconnect()
+214	        except Exception: pass
+215	        try: self.button_minus.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:216
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+215	        try: self.button_minus.pressed.disconnect()
+216	        except Exception: pass
+217	        try: self.button_up.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:218
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+217	        try: self.button_up.pressed.disconnect()
+218	        except Exception: pass
+219	        try: self.button_down.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:220
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+219	        try: self.button_down.pressed.disconnect()
+220	        except Exception: pass
+221	
+--------------------------------------------------
+4m>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:278
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+277	        try: self.button_plus.pressed.disconnect()
+278	        except Exception: pass
+279	        try: self.button_minus.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:280
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+279	        try: self.button_minus.pressed.disconnect()
+280	        except Exception: pass
+281	        try: self.button_left.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:282
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+281	        try: self.button_left.pressed.disconnect()
+282	        except Exception: pass
+283	        try: self.button_right.pressed.disconnect()
+--------------------------------------------------
+>> Issue: [B110:try_except_pass] Try, Except, Pass detected.
+   Severity: Low   Confidence: High
+   Location: gui/frozenplots/frozenplots.py:284
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b110_try_except_pass.html
+283	        try: self.button_right.pressed.disconnect()
+284	        except Exception: pass
+285	
+--------------------------------------------------
+>> Issue: [B506:yaml_load] Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().
+   Severity: Medium   Confidence: High
+   Location: gui/mvm_gui.py:48
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b506_yaml_load.html
+47	    with open(settings_file) as f:
+48	        config = yaml.load(f, Loader=yaml.FullLoader)
+49	    print('Config:', yaml.dump(config), sep='\n')
+--------------------------------------------------
+>> Issue: [B303:blacklist] Use of insecure MD2, MD4, MD5, or SHA1 hash function.
+   Severity: Medium   Confidence: High
+   Location: gui/settings/settingsfile.py:41
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+40	        with open(self.path, "rb") as configfile:
+41	            value = md5(configfile.read()).hexdigest()
+42	        with open(self.path + ".md5", "w") as hashfile:
+--------------------------------------------------
+>> Issue: [B303:blacklist] Use of insecure MD2, MD4, MD5, or SHA1 hash function.
+   Severity: Medium   Confidence: High
+   Location: gui/settings/settingsfile.py:59
+   More Info: https://bandit.readthedocs.io/en/latest/blacklists/blacklist_calls.html#b303-md5
+58	            with open(self.path, "rb") as configfile:
+59	                value = md5(configfile.read()).hexdigest()
+60	            return value == challenge

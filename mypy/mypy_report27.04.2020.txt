@@ -1,0 +1,33 @@
+gui/data_filler.py:1: error: Skipping analyzing 'PyQt5': found module but no type hints or library stubs
+gui/data_filler.py:2: error: Skipping analyzing 'numpy': found module but no type hints or library stubs
+gui/data_filler.py:3: error: Skipping analyzing 'pyqtgraph': found module but no type hints or library stubs
+gui/messagebox.py:2: error: Skipping analyzing 'PyQt5.QtWidgets': found module but no type hints or library stubs
+gui/communication/esp32serial.py:6: error: Skipping analyzing 'serial': found module but no type hints or library stubs
+gui/alarm_handler.py:2: error: Skipping analyzing 'PyQt5': found module but no type hints or library stubs
+gui/alarm_handler.py:82: error: Name 'mode' is not defined
+gui/alarm_handler.py:107: error: Not all arguments converted during string formatting
+gui/start_stop_worker.py:5: error: Skipping analyzing 'PyQt5.QtCore': found module but no type hints or library stubs
+gui/data_handler.py:4: error: Skipping analyzing 'PyQt5.QtCore': found module but no type hints or library stubs
+gui/mainwindow.py:2: error: Skipping analyzing 'PyQt5': found module but no type hints or library stubs
+gui/mainwindow.py:6: error: Cannot find implementation or library stub for module named 'maindisplay.maindisplay'
+gui/mainwindow.py:7: error: Cannot find implementation or library stub for module named 'settings.settings'
+gui/mainwindow.py:8: error: Cannot find implementation or library stub for module named 'settings.settingsfile'
+gui/mainwindow.py:10: error: Cannot find implementation or library stub for module named 'toolbar.toolbar'
+gui/mainwindow.py:11: error: Cannot find implementation or library stub for module named 'menu.menu'
+gui/mainwindow.py:12: error: Cannot find implementation or library stub for module named 'settings.settingsbar'
+gui/mainwindow.py:13: error: Cannot find implementation or library stub for module named 'alarms.alarms'
+gui/mainwindow.py:14: error: Cannot find implementation or library stub for module named 'alarms.guialarms'
+gui/mainwindow.py:15: error: Cannot find implementation or library stub for module named 'alarms.alarmsbar'
+gui/mainwindow.py:16: error: Cannot find implementation or library stub for module named 'special.special'
+gui/mainwindow.py:18: error: Cannot find implementation or library stub for module named 'toolsettings.toolsettings'
+gui/mainwindow.py:19: error: Cannot find implementation or library stub for module named 'monitor.monitor'
+gui/mainwindow.py:24: error: Cannot find implementation or library stub for module named 'numpad.numpad'
+gui/mainwindow.py:25: error: Cannot find implementation or library stub for module named 'frozenplots.frozenplots'
+gui/mainwindow.py:26: error: Cannot find implementation or library stub for module named 'messagebar.messagebar'
+gui/mainwindow.py:28: error: Skipping analyzing 'pyqtgraph': found module but no type hints or library stubs
+gui/communication/peep.py:2: error: Skipping analyzing 'numpy': found module but no type hints or library stubs
+gui/communication/fake_esp32serial.py:8: error: Skipping analyzing 'PyQt5': found module but no type hints or library stubs
+gui/communication/fake_esp32serial.py:9: error: Skipping analyzing 'PyQt5.QtGui': found module but no type hints or library stubs
+gui/mvm_gui.py:9: error: Skipping analyzing 'PyQt5': found module but no type hints or library stubs
+gui/mvm_gui.py:9: note: See https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-imports
+gui/mvm_gui.py:10: error: Skipping analyzing 'PyQt5.QtWidgets': found module but no type hints or library stubs
